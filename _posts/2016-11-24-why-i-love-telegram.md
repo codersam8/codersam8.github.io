@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 If you don't know about Telegram, it is a messaging app like Whatsapp only better. Here are some of the advantages of
 Telegram over Whatsapp.
+
 - You don't need your phone connected to internet to use web telegram.
 - You can have same telegram account from more than one device. For example
   your phone, tablet, laptop app etc.,
