@@ -23,6 +23,9 @@ Other chat services only allow you to send images. But not Telegram. With telegr
 #### **Telegram has stickers!!!!**
 Sometimes words are not enough to convey our emotions. Emoticons do a better job at that. Stickers are better than emoticons. Telegram has very cute stickers.
 
+#### **You can type smileys with keywords**
+In telegram all the smileys have been assigned a name. So you can use names to type them. Try :joy: :smiley: :heart: :blush: as some examples.
+
 [//]: # (- It only sends verification code via SMS only for the first time. All the other times)
 [//]: # (it would send to any of the logged account)
 [//]: # It displays most used stickers in a line at the bottom in web Telegram.
