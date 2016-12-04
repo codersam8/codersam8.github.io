@@ -14,3 +14,7 @@ If you ever wonder about what movies to watch, here is my list for you to refer
 - Apadbhandavudu
 - Chandramukhi
 - Narasimha
+- Magadheera
+- Happy days (Telugu)
+- Thani Oruvan
+- Swayam krushi
