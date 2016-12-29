@@ -6,11 +6,14 @@ categories: android
 comments: true
 ---
 I've been hearing about Android 7 since two months for now. I was very excited about it.
+
 As I got Moto G4 Plus, I should get the Nougat update. I've been reading news about some phones
 getting the Nougat update.
+
+
 Today morning I woke up and thought why should not I check if any updates were available from phone settings.
-So I opened settings, scrolled all the way down to About phone section. Opened About phone section.
-The very first entry is System updates. When I clicked it the phone checked for update and showed me that Android 7.0 is available.
+So I opened settings, scrolled all the way down to **About phone** section. Opened About phone section.
+The very first entry is **System updates**. When I clicked it the phone checked for update and showed me that Android 7.0 is available.
 That's it I followed the steps and updated my phone to Android 7.0.
 
 
