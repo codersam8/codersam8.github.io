@@ -20,6 +20,9 @@ Most of the chat services reduce the quality of pictures you send. But not Teleg
 #### **You can send any kind of file(pictures, PDF, word, .txt, .el etc.,) over Telegram**
 Other chat services only allow you to send images. But not Telegram. With telegram you can send and type of files.
 
+#### **You can send messages to YOU**
+You must have encountered this situation, where you need to take a quick note of a number, name or address. Usually in these cases what we will do is open some messaging app and send it to one of our friends, just so that it will be saved somewhere. But in Telegram you can send messages to yourself!!!
+
 #### **Telegram has stickers!!!!**
 Sometimes words are not enough to convey our emotions. Emoticons do a better job at that. Stickers are better than emoticons. Telegram has very cute stickers.
 
