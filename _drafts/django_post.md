@@ -5,33 +5,9 @@ title:  "Why Django's request.post returns nothing"
 categories: django
 comments: true
 ---
-If you don't know about <a href="https://telegram.org/" target="_blank">Telegram</a>, it is a messaging app like Whatsapp only better. Here are some of the advantages of
-Telegram over Whatsapp.
-
-#### **You don't need your phone connected to internet to use <a href="https://web.telegram.org">web telegram</a>**
-If you want to use Whatsapp over web, you must have your phone connected to internet too. That is super strange. But Telegram doesn't need that.
-
-#### **You can use same telegram account in more than one device.**
-This is one of the most useful features for me. I use telegram from my tablet too. I downloaded telegram app and used the same account.
-
-#### **When you send photos through Telegram, it doesn't reduce the quality.**
-Most of the chat services reduce the quality of pictures you send. But not Telegram. In Telegram the pictures transfer without any loss.
-
-#### **You can send any kind of file(pictures, PDF, word, .txt, .el etc.,) over Telegram**
-Other chat services only allow you to send images. But not Telegram. With telegram you can send and type of files.
-
-#### **You can send messages to YOU**
-You must have encountered this situation, where you need to take a quick note of a number, name or address. Usually in these cases what we will do is open some messaging app and send it to one of our friends, just so that it will be saved somewhere. But in Telegram you can send messages to yourself!!!
-
-#### **Telegram has stickers!!!!**
-Sometimes words are not enough to convey our emotions. Emoticons do a better job at that. Stickers are better than emoticons. Telegram has very cute stickers.
-
-#### **You can type smileys with keywords**
-In telegram all the smileys have been assigned a name. So you can use names to type them. Try :joy: :smiley: :heart: :blush: as some examples.
-
-[//]: # (- It only sends verification code via SMS only for the first time. All the other times)
-[//]: # (it would send to any of the logged account)
-[//]: # It displays most used stickers in a line at the bottom in web Telegram.
+If you are working with Django, you must have come across this issue.
+We use `request.GET` to get all the parameters sent in request. But if you
+do the same with `request.POST` it would give something like `<QueryDict: {}>`.
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
