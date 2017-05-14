@@ -1,14 +1,25 @@
 ---
 layout: post
-title:  "Why Django's request.post returns nothing"
+title:  "Why Django's request.POST returns nothing"
 <!-- date:   2016-11-24 21:47:04 +0530 -->
 categories: django
 comments: true
 ---
 If you are working with Django, you must have come across this issue.
-We use `request.GET` to get all the parameters sent in request. But if you
-do the same with `request.POST` it would give something like `<QueryDict: {}>`.
+We use `request.GET` to get all the parameters sent in GET request. But if you
+try to do the same with `request.POST` it would return `<QueryDict: {}>`.
 
+Where did your POST data go? Why is it empty? Let me start
+by telling you how to get your POST data first. `json.loads(request.read())`
+returns the data in a POST request.
+
+Now let's discuss why `request.POST` retuned an empty QueryDict.
+It is because `request.POST` contains only the data sent from a HTML
+`<form>` element. But if you prepare the request data from JavaScript
+`request.POST` would be empty. In such cases you can get data from
+HttpRequest by reading it like a file using `HttpRequest.read()`.
+The returned data is of type string which you can convert to a dictionay by
+passing it to `json.loads()`
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
