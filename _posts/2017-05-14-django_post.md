@@ -9,7 +9,7 @@ If you are working with Django, you must have come across this issue.
 We use `request.GET` to get all the parameters sent in GET request. But if you
 try to do the same with `request.POST` it would return `<QueryDict: {}>`.
 
-Where did you POST data go? Why is it empty? Let me start
+Where did your POST data go? Why is it empty? Let me start
 by telling you how to get your POST data first. `json.loads(request.read())`
 returns the data in a POST request.
 
@@ -29,7 +29,7 @@ passing it to `json.loads()`
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 /*
 var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.url = 'https://codersam8.github.io/django/2017/05/14/django_post.html';  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */
