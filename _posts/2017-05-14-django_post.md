@@ -13,7 +13,7 @@ Where did your POST data go? Why is it empty? Let me start
 by telling you how to get your POST data first. `json.loads(request.read())`
 returns the data in a POST request.
 
-Now let's discuss why `request.POST` retuned an empty QueryDict.
+Now let's discuss why `request.POST` returned an empty QueryDict.
 It is because `request.POST` contains only the data sent from a HTML
 `<form>` element. But if you prepare the request data from JavaScript
 `request.POST` would be empty. In such cases you can get data from
